@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商城移动端界面设计（rem适配）</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+
+    <script>
+        (function () {
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth / 15 + 'px';
+        })();
+    </script>
+
+    <!--<link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header id="header">
+    <a id="task" href="javascript:;"><span class="glyphicon glyphicon-tasks"></span></a>
+    <h1><span class="glyphicon glyphicon-lock"></span>商城</h1>
+    <a id="refresh" href="javascript:;"><span class="glyphicon glyphicon-repeat"></span></a>
+</header>
+<nav id="nav">
+    <a class="active" href="javascript:;">综合<span class="glyphicon glyphicon-chevron-down"></span></a>
+    <a href="javascript:;">销量</a>
+    <a href="javascript:;">价格<span id="span-box"><span class="glyphicon glyphicon-chevron-up"></span><span
+            class="glyphicon glyphicon-chevron-down active"></span></span></a>
+    <a href="javascript:;">筛选<span class="glyphicon glyphicon-filter"></span></a>
+</nav>
+<section id="wrap">
+    <ul id="list">
+        <li>
+            <a href="javascript:;">
+                <img src="img/01.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">iphone6手机壳6s苹果6plus手机套六防摔男女款puls硬壳潮</span>
+                <span class="sPrice">￥25.00</span>
+                <span class="sComment">月成交 6.7万笔 评价 50万</span>
+            </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/02.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">摩斯维 华为nova手机壳nova青春版防摔caz-al10硅胶硬壳套男女款</span>
+                <span class="sPrice">￥30.00</span>
+                <span class="sComment">月成交 6.7万笔 评价 50万</span>
+            </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/03.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">飚爱iPhone6手机壳苹果6Plus套全包6s防摔硅胶i6p新款边男女款红7</span>
+                <span class="sPrice">￥28.00</span>
+                <span class="sComment">月成交 5.2万笔 评价 16万</span>
+            </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/04.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">iphone6苹果6plus手机壳6s防摔六硅胶套</span>
+                <span class="sPrice">￥35.00</span>
+                <span class="sComment">月成交 1.0万笔 评价 7.0万</span>
+            </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/05.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">vivox9手机壳防摔步步高vivo x9保护套</span>
+                <span class="sPrice">￥25.00</span>
+                <span class="sComment">月成交 2.3万笔 评价 6.9万</span>
+            </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/06.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">景为 苹果6手机壳iPhone6s硅胶套6plus</span>
+                <span class="sPrice">￥32.00</span>
+                <span class="sComment">月成交 1.8万笔 评价 7.3万</span>
+            </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/07.jpg"/>
+                <span class="spanWrap">
+                    <span class="sTitle">MOBY 苹果7plus手机壳镂空散热硬壳iP</span>
+                    <span class="sPrice">￥28.00</span>
+                    <span class="sComment">月成交 6.7万笔 评价 50万</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/08.jpg"/>
+                <span class="spanWrap">
+                <span class="sTitle">德曼尼 华为Mate9手机壳真皮Mate 9翻盖</span>
+                <span class="sPrice">￥78.00</span>
+                <span class="sComment">月成交 3206笔 评价 1.1万</span>
+            </span>
+            </a>
+        </li>
+    </ul>
+</section>
+</body>
+</html>
