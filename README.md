@@ -6,6 +6,6 @@
 * 项目介绍：该项目为一个单页面移动端布局项目，主要涉及的知识点包括rem适配、less等。
 * 效果：[点击查看](https://fishnon.github.io/mobile-layout/shopping-mall/index.html)
 * 源码：[点击查看](https://github.com/FishNon/mobile-layout/tree/master/shopping-mall)<br/>
-![](https://github.com/FishNon/mobile-layout/blob/master/shopping-mall/img/show/01.jpg)
-![](https://github.com/FishNon/mobile-layout/blob/master/shopping-mall/img/show/02.jpg)
+![](https://github.com/FishNon/mobile-layout/blob/master/shopping-mall/img/show/01.png)
+![](https://github.com/FishNon/mobile-layout/blob/master/shopping-mall/img/show/02.png)
 
